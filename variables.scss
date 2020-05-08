@@ -1,0 +1,25 @@
+$shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.link-box:hover {
+    transform: scale(1.2);
+    transition-duration: .7s;
+    box-shadow: $shadow;
+}
+
+.navbar-icon {
+    width: 30px;
+    margin: auto;
+
+    .nav-links {
+        margin: auto 10px;
+    }
+
+}
+
+#about-me-img-div {
+    text-align: center;
+}
+
+#about-me-text {
+    @extend #about-me-img-div
+}

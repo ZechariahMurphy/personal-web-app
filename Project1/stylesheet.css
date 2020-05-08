@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(226, 225, 204);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.4rem;
+    width: 80%;
+    height: 95%;
+    margin: auto;
+}
+
+.block {
+    padding: 25px;
+}
+
+#block-1 {
+    text-align: center;
+}
+
+#block-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#block-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#block-4 {
+    text-align: center;
+}
+
+#tribute-info {
+    width: 48%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#event-list {
+    width: 48%;
+}
+
+#event-list > h2 {
+    width: fit-content;
+    margin: auto;
+}
+
+#event-list > ul {
+    margin-right: 2%;
+}
+
+#img-div {
+    height: 300px;
+    width: 48%;
+    text-align: center;
+}
+
+#image-1 {
+    max-height: 85%;
+    width: auto;
+}
+
+#img2-div {
+    height: 400px;
+    width: 48%;
+    text-align: center;
+}
+
+#image-2 {
+    width: auto;
+    max-height: 100%;
+}
+
+#wrap {
+    border: double crimson;
+    border-radius: 5px;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: rgb(211, 15, 54);
+}
+
+a {
+    color: rgb(211, 15, 54);
+}
+
+a:hover {
+    color: rgb(187, 19, 52);
+}
+
+li {
+    margin: .8rem;
+}
+
+#title {
+    font-size: 5rem;
+}
+
+#img-caption {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,19 @@
+.link-box:hover {
+  transform: scale(1.2);
+  transition-duration: 0.7s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-icon {
+  width: 30px;
+  margin: auto;
+}
+.navbar-icon .nav-links {
+  margin: auto 10px;
+}
+
+#about-me-img-div, #about-me-text {
+  text-align: center;
+}
+
+/*# sourceMappingURL=variables.css.map */
