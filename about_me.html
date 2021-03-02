@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>About Me</title>
 
-        <meta charset="UTF-8">
+<head>
+    <title>About Me</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-        <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="/variables.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    </head>
+    <link rel="stylesheet" href="/style.css">
 
-    <body>
+    <link rel="stylesheet" href="/variables.css">
 
-        <!-- Navbar -->
-        <div class="navbar">
-            <div class="nav-links">
-                <a href="/index.html"> <img src="/images/home-icon.png" alt="a person icon" class="navbar-icon"> </a>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="/index.html"> <img src="/images/home-icon.png" alt="a person icon" class="navbar-icon"> </a>
+        </div>
+        <div class="nav-links">
+            <a href="/about_me.html"> <img src="/images/person-icon.png" alt="a person icon" class="navbar-icon"> </a>
+        </div>
+        <div class="nav-links">
+            <a href="/resume.html"> <img src="/images/document-icon.png" alt="a document icon" class="navbar-icon"> </a>
+        </div>
+        <div class="nav-links">
+            <a href="/projects.html"> <img src="/images/gears-icon.png" alt="a gear icon" class="navbar-icon"> </a>
+        </div>
+    </div>
+
+    <h1>About Me</h1>
+
+    <!-- Quote -->
+    <div id="about-me-opening-div">
+        <blockquote>
+            <p id="about-me-quote">"Telent is a persued interest. Anything that you're willing to practice, you can do."
+            </p>
+            <footer>
+                <cite>- Bob Ross</cite>
+            </footer>
+        </blockquote>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Image -->
+            <div class="col-md-5 order-md-2 about-me-col" id="about-me-img-div">
+                <img src="/images/BeFunky-photo.jpg" id="about-me-img" class="rounded"
+                    alt="a picture of Zechariah Murphy, that handsome devil">
             </div>
-            <div class="nav-links">
-                <a href="/about_me.html"> <img src="/images/person-icon.png" alt="a person icon" class="navbar-icon"> </a>
+
+            <!-- Bio -->
+            <div class="col-md-7 order-md-1 about-me-col">
+                <p id="about-me-text">
+                    I began my professional career as a history teacher. Every few months I’d get a brand new roster of
+                    kids. On the first day of each trimester I’d have the above quote clearly projected on the board. I
+                    had a quote on the board everyday, something motivating or introspective, but I’d use this quote on
+                    the first day for a number of reasons. First, I deeply admire Bob Ross. As a teacher I was inspired
+                    by his ability to entertain while educating. Also, one thing I’ve learned, and wanted to convey to
+                    my students, is how true this quote is. I wanted it to be the first thing they saw as they walked
+                    into my room and the first thing they thought about as they became my students. Believing you can
+                    achieve your goals is important, but that’s only a part of it. You have to pursue your goals, put
+                    plans into action, train and expand your knowledge in order to reach them. Everyday I told my
+                    students they were important, their dreams mattered, and they could be anything they worked hard
+                    enough to become. I taught that mentality everyday until I began to believe it myself, which
+                    ultimately gave me the confidence to leave teaching and pursue a lifelong interest in technology.
+                    Teaching had an enormous impact on my life, and I’m indebted to my students for their contribution,
+                    but as a history teacher I was always focused on the past and my passion is the future. Software
+                    development has been more fulfilling than I could have imagined. I’m willing to practice, and as I
+                    pursue my interest my talent grows. Thanks Bob.
+                </p>
             </div>
-            <div class="nav-links">
-                <a href="/resume.html"> <img src="/images/document-icon.png" alt="a document icon" class="navbar-icon"> </a>
-            </div>
-            <div class="nav-links">
-                <a href="/projects.html"> <img src="/images/gears-icon.png" alt="a gear icon" class="navbar-icon"> </a>
-            </div>
+
         </div>
 
-        <h1>About Me</h1>
+    </div>
 
-        <!-- Quote -->
-        <div id="about-me-opening-div">
-            <blockquote>
-                <p id="about-me-quote">"Telent is a persued interest. Anything that you're willing to practice, you can do."</p>
-                <footer>
-                    <cite>- Bob Ross</cite>
-                </footer>
-            </blockquote>
-        </div>
+</body>
 
-        <div class="container">
-
-            <div class="row">
-
-                <!-- Image -->
-                <div class="col-md-5 order-md-2 about-me-col" id="about-me-img-div">
-                    <img src="/images/pic-of-me.jpeg" id="about-me-img" class="rounded" alt="a picture of Zechariah Murphy">
-                </div>
-
-                <!-- Bio -->
-                <div class="col-md-7 order-md-1 about-me-col">
-                    <p  id="about-me-text">
-                        I began my professional career as a high school social studies teacher. The school where I worked operated with trimesters which meant I received a brand new roster three times a year. On the first day of each I’d have the quote above clearly projected on the board. I had a quote on the board everyday, something motivating or introspective, but I used this quote as my premier excerpt, for a number of reasons. First, I deeply admire Bob Ross. As a teacher I was inspired by his ability to entertain, educate, and motivate. Second, if there’s one thing I’ve learned myself, or that I wanted to convey to my students, it’s this quote. Belief that you can achieve your goals is the heartbeat of improvement, and I feel that notion is perfectly captured by those few words. Additionally, by teaching that mentality on a daily basis something peculiar began to happen, I began to believe it myself - which ultimately gave me the courage and confidence to leave teaching and pursue a career in software development. It’s still early in my developer career, but the belief that I will achieve my goals has only grown stronger with time. Thanks Bob.
-                    </p>
-                </div>                
-
-            </div>
-
-        </div>
-        
-    </body>
 </html>
