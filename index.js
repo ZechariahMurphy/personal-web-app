@@ -1,0 +1,1 @@
+var indexFileInclude = require('index.html');
